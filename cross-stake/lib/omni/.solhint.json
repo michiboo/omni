@@ -1,0 +1,10 @@
+{
+  "extends": "solhint:recommended",
+  "rules": {
+    "custom-errors": "off",
+    "func-visibility": ["error", { "ignoreConstructors": true }],
+    "immutable-vars-naming": "off",
+    "no-unused-import": "error",
+    "no-unused-vars": "error"
+  }
+}
